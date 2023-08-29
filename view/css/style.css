@@ -1,3 +1,45 @@
 body {
     background-color: aquamarine;
 }
+
+.categorias{
+    display: grid;
+    grid-row: 1;
+   
+
+}
+
+.containerCategorias{
+    display: grid;
+    grid-row: 1 span 5;
+
+}
+.destaque{
+    background-color: white;
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 2;
+    border-color: black;
+}
+
+.containerHome{
+    display: grid;
+    grid-template-rows: 30vh 40vh 15vh 15vh;
+
+}
+
+.feedback{
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 2;
+    border-color: black;
+    background-color: white;
+}
+
+.fipe{
+    border: 1px solid black;
+    border-width: 2px;
+    border-radius: 2;
+    border-color: black;
+    background-color: white;
+}
