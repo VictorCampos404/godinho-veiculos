@@ -5,26 +5,33 @@ body {
 .categorias{
     display: grid;
     grid-row: 1;
+    text-align: center;
+   
    
 
 }
 
 .containerCategorias{
     display: grid;
+    align-content:center;
+    justify-items: center;
     grid-row: 1 span 5;
+
 
 }
 .destaque{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    justify-items: center;
     background-color: white;
-    border: 1px solid black;
-    border-width: 2px;
-    border-radius: 2;
-    border-color: black;
+    padding-top: 3px;
+  
 }
+
 
 .containerHome{
     display: grid;
-    grid-template-rows: 30vh 40vh 15vh 15vh;
+    grid-template-rows: 50vh 60vh 60vh 15vh;
 
 }
 
@@ -42,4 +49,9 @@ body {
     border-radius: 2;
     border-color: black;
     background-color: white;
+}
+i {
+    width: 50px;
+    height: 50px;
+
 }
